@@ -56,8 +56,37 @@ st.markdown("""
     
     /* Input field styling */
     .stTextInput > label, .stNumberInput > label, .stSelectbox > label {
-        color: #2c3e50 !important;
+        color: #1a1a1a !important;
         font-weight: 600;
+        font-size: 0.95rem;
+    }
+    
+    /* Section headers within cards */
+    h4 {
+        color: #1a1a1a !important;
+        font-weight: 700;
+        margin-top: 1rem;
+    }
+    
+    /* Info box text */
+    .stAlert {
+        color: #004085 !important;
+    }
+    
+    /* Expander text */
+    .streamlit-expanderHeader {
+        color: #1a1a1a !important;
+        font-weight: 600;
+    }
+    
+    /* General text in cards */
+    .prediction-card p, .prediction-card li {
+        color: #2c3e50;
+        line-height: 1.6;
+    }
+    
+    .prediction-card h2, .prediction-card h3, .prediction-card h4 {
+        color: #1a1a1a !important;
     }
     
     /* Button styling */
@@ -84,9 +113,9 @@ st.markdown("""
         border: 2px solid #28a745;
         border-radius: 10px;
         padding: 1rem;
-        color: #155724;
+        color: #0f5132;
         font-size: 1.2rem;
-        font-weight: 600;
+        font-weight: 700;
         text-align: center;
         margin: 1rem 0;
     }
@@ -96,9 +125,9 @@ st.markdown("""
         border: 2px solid #ffc107;
         border-radius: 10px;
         padding: 1rem;
-        color: #856404;
+        color: #664d03;
         font-size: 1.2rem;
-        font-weight: 600;
+        font-weight: 700;
         text-align: center;
         margin: 1rem 0;
     }
